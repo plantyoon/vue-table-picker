@@ -1,0 +1,43 @@
+{
+  "name": "vue-table-picker",
+  "version": "0.1.0",
+  "description": ".",
+  "main": "./dist/TablePicker.common.js",
+  "unpkg": "./dist/TablePicker.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name TablePicker ./src/components/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plantyoon/vue-table-picker.git"
+  },
+  "keywords": [
+    "vue",
+    "table",
+    "grid",
+    "",
+    "component",
+    "box"
+  ],
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "author": {
+    "name": "plantyoon",
+    "email": "lunarboris@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plantyoon/vue-table-picker/issues"
+  },
+  "homepage": "https://github.com/plantyoon/vue-table-picker#readme"
+}
